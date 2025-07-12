@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useCallback, useEffect, useRef } from 'react'
 
 function App() {
@@ -121,6 +122,21 @@ function App() {
   </article>
 </main>
 
+=======
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+
+    {/* <h1 className='bg-redbg-red-500'>haris</h1> */}
+  
+>>>>>>> ee7ca4b36a162964b0f5b47f14abdac84abe1496
     </>
   )
 }
